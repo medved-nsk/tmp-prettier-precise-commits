@@ -1,0 +1,26 @@
+{
+  "name": "tmp-prettier-precise-commits",
+  "version": "1.0.0",
+  "description": "tbd",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "precise-commits": "precise-commits",
+    "precommit": "npm run precise-commits"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/medved-nsk/"
+  },
+  "keywords": [
+    "tmp"
+  ],
+  "author": "Dmitry M",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "precise-commits": "^1.0.2",
+    "prettier": "^1.13.7",
+    "typescript": "^2.9.2"
+  }
+}
