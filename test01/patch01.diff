@@ -1,0 +1,21 @@
+diff --git a/test01/test01.ts b/test01/test01.ts
+index 448c7c7..d4511c2 100644
+--- a/test01/test01.ts
++++ b/test01/test01.ts
+@@ -1,11 +1,11 @@
+ console.log("test1");
+-console.log("test2");
++ console.log("test2");
+ 
+ function func01(arg1: number) {
+-if ( arg1  >  32)  {
+-   console.log("test3");
+-     }
++if ( arg1 >  32)  {
++    console.log("test3");
++      }
+     //return (arg1-32);
+-  }
++    }
+ 
+ func01( 45 );
