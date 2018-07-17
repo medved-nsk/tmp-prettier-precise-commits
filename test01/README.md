@@ -4,11 +4,11 @@
  - husky 0.14.3
 #### 1. Apply patch (whitespaces-only changes)
 ```sh
-patch.exe -p0 test01.ts < patch01.diff
+patch -p0 test01.ts < patch01.diff
 ```
 #### 2. Check expecting prettier formating
 ```sh
-node.exe ../node_modules/prettier/bin-prettier.js test01.ts
+node ../node_modules/prettier/bin-prettier.js test01.ts
 ```
 #### 3. Commit
 ```sh
